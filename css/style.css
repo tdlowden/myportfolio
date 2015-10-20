@@ -1,0 +1,112 @@
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:focus {
+   outline: none;
+   box-shadow:none;
+}
+
+body{
+	background-color: #112e51
+}
+h2{
+	color: #0071bc;
+}
+.top-line{
+	background-color: #ffffff;
+}
+.big-background{
+	background-image: url("../images/scotland.jpg");
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	border-top: 4px solid #112e51;
+
+}
+.menu{
+	float:right;
+	margin-right: 8%;
+	margin-top: 8px;
+}
+.menu a{
+	display: inline-block;
+	padding: 15px;	
+	color: #112e51;
+	border-radius: 15px;
+	
+}
+.menu a:link{
+	text-decoration: none;
+}
+.menu a:hover{
+	background-color: #112e51;
+	color: #ffffff;
+
+}
+.menu a:active{
+	background-color: #205493;
+}
+.social-icons{
+	width: 260px;
+	float: left;
+	margin-left: 13%;
+}
+
+.social-icons img{
+	padding: 5px;
+}
+.bio-box{
+	background-color: #aeb0b5;
+	opacity: .5;
+	width: 30%;
+	margin-left: 8%; 
+	border-left: 2px solid #112e51;
+	border-right: 2px solid #112e51;
+	padding-bottom: 50px;
+	height: 396px;
+}
+.aboutme-img{
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+}
+
+.usa-grid-text{
+	color: #ffffff;	
+}
+
+.sidenav{
+	padding-top: 40px;
+}
+.usa-grid a{
+	color: #ffffff;
+}
+.usa-width-two-thirds{
+	color: #ffffff;
+}
+.usa-table-borderless{
+	color: #ffffff;
+}
+.table-container{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.publication{
+	width: 30%;
+}
+.title{
+	width: 60%;
+}
+tr a:visited{
+	color: #e59393;
+}
+tr a:link{
+	color: #aeb0b5;
+}
+
+
+	
