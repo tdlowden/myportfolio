@@ -13,6 +13,9 @@ a:focus {
 body{
 	background-color: #112e51
 }
+h1{
+	position: -1000;
+}
 h2{
 	color: #0071bc;
 }
@@ -24,9 +27,11 @@ h2{
 	height: 400px;
 	width: 100%;
 	background-size: cover;
+	background-position: bottom right;
+	/*background-attachment: fixed;*/
 	border-top: 4px solid #112e51;
-
 }
+
 .menu{
 	float:right;
 	margin-right: 8%;
@@ -58,19 +63,10 @@ h2{
 
 .social-icons img{
 	padding: 5px;
-}
-.bio-box{
-	background-color: #aeb0b5;
-	opacity: .5;
-	width: 30%;
-	margin-left: 8%; 
-	border-left: 2px solid #112e51;
-	border-right: 2px solid #112e51;
-	padding-bottom: 50px;
-	height: 396px;
+
 }
 .aboutme-img{
-	padding-top: 60px;
+	padding-top: 70px;
 	padding-bottom: 40px;
 
 }
