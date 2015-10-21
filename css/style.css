@@ -20,7 +20,7 @@ h2{
 	background-color: #ffffff;
 }
 .big-background{
-	background-image: url("../images/scotland.jpg");
+	background-image: url("../images/scotland2.jpg");
 	height: 400px;
 	width: 100%;
 	background-size: cover;
@@ -36,7 +36,7 @@ h2{
 	display: inline-block;
 	padding: 10px;	
 	color: #112e51;
-	border-radius: 15px;
+	border-radius: 10px;
 	
 }
 .menu a:link{
@@ -107,6 +107,11 @@ tr a:visited{
 tr a:link{
 	color: #aeb0b5;
 }
-
+.dogtext{
+	color: #ffffff;
+}
+.quarterpic{
+	padding-top: 20px
+}
 
 	
